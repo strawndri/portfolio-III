@@ -35,3 +35,8 @@ body {
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;
 }
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
