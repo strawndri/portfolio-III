@@ -9,7 +9,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #f9f9f9;
-    color: rgb(73, 73, 73);
+    color: #494949;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .titulo-destaque {
-    color: rgb(108, 157, 114);
+    color: #6c9d72;
 }
 
 .apresentacao__conteudo__paragrafo {
@@ -39,4 +39,16 @@ body {
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #bddbc1;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #494949;
+    font-weight: 600;
 }
