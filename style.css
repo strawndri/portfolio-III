@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #f9f9f9;
     color: rgb(73, 73, 73)
 }
