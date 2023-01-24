@@ -10,6 +10,11 @@ body {
     color: rgb(73, 73, 73)
 }
 
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
 .titulo-destaque {
     color: rgb(108, 157, 114);
 }
