@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +9,29 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #f9f9f9;
-    color: rgb(73, 73, 73)
+    color: rgb(73, 73, 73);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .apresentacao {
+    margin: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
 }
 
 .titulo-destaque {
     color: rgb(108, 157, 114);
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
 }
