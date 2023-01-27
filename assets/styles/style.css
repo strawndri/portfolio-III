@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #f9f9f9;
     color: #494949;
@@ -14,10 +14,11 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .apresentacao__conteudo {
@@ -50,9 +51,19 @@ body {
     width: 280px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
+    font-size: 18px;
     padding: 21.5px 0;
     text-decoration: none;
     color: #494949;
     font-weight: 600;
+    transition: .5s all;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #a4cca9;
+    scale: calc(1.05)
+}
+
+.apresentacao__imagem {
+    width: 24em;
 }
