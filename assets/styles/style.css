@@ -13,7 +13,22 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.apresentacao {
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    color: #6c9d72;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.apresentacao, .sobre-mim {
     margin: 2% 15%;
     display: flex;
     align-items: center;
@@ -21,7 +36,7 @@ body {
     gap: 40px;
 }
 
-.apresentacao__conteudo {
+.apresentacao__conteudo, .sobre-mim__conteudo {
     display: flex;
     flex-direction: column;
     gap: 40px;
