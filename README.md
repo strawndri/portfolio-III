@@ -27,10 +27,17 @@
 Site desenvolvido durante o curso [HTML e CSS: cabeçalho, footer e variáveis CSS](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css), na plataforma [Alura](https://www.alura.com.br/), o qual foi ministrado pelos instrutores [Guilherme Lima](https://www.linkedin.com/in/guilherme-lima-458925178/) e [Rafaella Ballerini](https://www.linkedin.com/in/rafaella-ballerini-45875016a/?originalSubdomain=br). O objetivo foi consolidar conhecimentos em Front-end, sobretudo de HTML e CSS.
 
 ## Conhecimentos adquiridos
+- Como manipular elementos utilizando *flexbox*;
+- Uso do pseudo-elemento `hover`, que altera a visualização de elementos ao passar o ponteiro do mouse sobre eles;
+- Como organizar a estrtura de um arquivo HTML com `header`, `main` e `footer`;
+- Importância de um código semântico e consistente; 
+- Navegação entre páginas com links;
+- Utilização de variáveis em CSS, tornando a estilização mais dinâmica e simples.
 
 
 ## Funcionalidades
-
+- Visualizar informações sobre mim;
+- Acessar minhas redes sociais: Github e Linkedin.
 
 ## Como executar e visualizar
 
